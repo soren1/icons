@@ -1,0 +1,15 @@
+@import '../../mixin';
+.mustache.icon {
+  &:after {
+    @include pseudo();
+    left: 13px;
+    top: 4px;
+    width: 7px;
+    height: 4px;
+    border: 0 solid transparent;
+    border-bottom: 6px solid currentColor;
+    border-radius: 0 0 100% 0;
+    transform-origin: left 7px;
+    transform: rotate(40deg);
+  }
+}

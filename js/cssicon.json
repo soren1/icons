@@ -1,0 +1,2207 @@
+[
+  {
+    "id": 1000,
+    "name": "letter C",
+    "classNames": "C",
+    "style": "letter",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "logo",
+      "letter",
+      "C"
+    ]
+  },
+  {
+    "id": 1001,
+    "name": "letter S",
+    "classNames": "S",
+    "style": "letter",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "logo",
+      "letter",
+      "C"
+    ]
+  },
+  {
+    "id": 1002,
+    "name": "letter I",
+    "classNames": "I",
+    "style": "letter",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "logo",
+      "letter",
+      "I"
+    ]
+  },
+  {
+    "id": 1003,
+    "name": "letter O",
+    "classNames": "O",
+    "style": "letter",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "logo",
+      "letter",
+      "O"
+    ]
+  },
+  {
+    "id": 1004,
+    "name": "letter N",
+    "classNames": "N",
+    "style": "letter",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "logo",
+      "letter",
+      "N"
+    ]
+  },
+  {
+    "id": 0,
+    "name": "search",
+    "classNames": "search",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "search",
+      "looking glass"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "search solid",
+    "classNames": "search-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "search",
+      "looking glass",
+      "solid"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "magnify",
+    "classNames": "magnify",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "search",
+      "looking glass",
+      "magnify",
+      "plus"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "magnify solid",
+    "classNames": "magnify-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "search",
+      "looking glass",
+      "magnify",
+      "plus",
+      "solid"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "minify",
+    "classNames": "minify",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "search",
+      "looking glass",
+      "minify",
+      "minus"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "minify solid",
+    "classNames": "minify-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "search",
+      "looking glass",
+      "minify",
+      "minus",
+      "solid"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "close",
+    "classNames": "close",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "close",
+      "x"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "menu",
+    "classNames": "menu",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "hamburger",
+      "menu"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "arrow left",
+    "classNames": "arrow-left",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "arrow left",
+      "arrow"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "arrow right",
+    "classNames": "arrow-right",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "arrow right",
+      "arrow"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "arrow up",
+    "classNames": "arrow-up",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "arrow up",
+      "arrow"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "arrow down",
+    "classNames": "arrow-down",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "arrow down",
+      "arrow"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "plus",
+    "classNames": "plus",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "plus",
+      "math"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "minus",
+    "classNames": "minus",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "minus",
+      "math"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "check",
+    "classNames": "check",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "check",
+      "math"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "remove",
+    "classNames": "remove",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "remove",
+      "math"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "trash",
+    "classNames": "trash",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "trash",
+      "delete"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "trash solid",
+    "classNames": "trash-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "trash",
+      "delete"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "audio",
+    "classNames": "audio",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "audio",
+      "micophone",
+      "record"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "audio solid",
+    "classNames": "audio-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "audio",
+      "micophone",
+      "record",
+      "solid"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "pin",
+    "classNames": "pin",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "pin",
+      "map",
+      "location"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "pin solid",
+    "classNames": "pin-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "pin",
+      "map",
+      "location",
+      "solid"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "chat",
+    "classNames": "chat",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "chat",
+      "bubble"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "chat solid",
+    "classNames": "chat-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "chat",
+      "bubble",
+      "solid"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "stop",
+    "classNames": "stop",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "stop",
+      "banned"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "stop solid",
+    "classNames": "stop-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "stop",
+      "banned",
+      "solid"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "clock",
+    "classNames": "clock",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "clock",
+      "three o'clock",
+      "three"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "clock solid",
+    "classNames": "clock-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "clock",
+      "nine o'clock",
+      "nine",
+      "solid"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "clock h3m30",
+    "classNames": "clock-h3m30",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "clock",
+      "three o'clock thirty minutes",
+      "three thirty",
+      "three",
+      "thirty"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "clock h3m30 solid",
+    "classNames": "clock-h3m30-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "clock",
+      "three o'clock thirty minutes",
+      "three thirty",
+      "three",
+      "thirty",
+      "solid"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "clock h9m0",
+    "classNames": "clock-h9m0",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "clock",
+      "nine o'clock",
+      "nine"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "clock h9m0 solid",
+    "classNames": "clock-h9m0-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "clock",
+      "nine o'clock",
+      "nine",
+      "solid"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "clock h9m30",
+    "classNames": "clock-h9m30",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "clock",
+      "nine o'clock thirty minutes",
+      "nine",
+      "thirty"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "clock h9m30 solid",
+    "classNames": "clock-h9m30-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "clock",
+      "nine o'clock thirty minutes",
+      "nine",
+      "thirty",
+      "solid"
+    ]
+  },
+  {
+    "id": 34,
+    "name": "profile",
+    "classNames": "profile",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "profile",
+      "people",
+      "head"
+    ]
+  },
+  {
+    "id": 35,
+    "name": "profile solid",
+    "classNames": "profile-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "profile",
+      "people",
+      "head",
+      "solid"
+    ]
+  },
+  {
+    "id": 36,
+    "name": "bell",
+    "classNames": "bell",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "bell",
+      "notification",
+      "alert"
+    ]
+  },
+  {
+    "id": 37,
+    "name": "bell solid",
+    "classNames": "bell-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "bell",
+      "notification",
+      "alert",
+      "solid"
+    ]
+  },
+  {
+    "id": 38,
+    "name": "heart",
+    "classNames": "heart",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "heart",
+      "love",
+      "like"
+    ]
+  },
+  {
+    "id": 39,
+    "name": "heart solid",
+    "classNames": "heart-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "heart",
+      "love",
+      "like",
+      "solid"
+    ]
+  },
+  {
+    "id": 40,
+    "name": "print",
+    "classNames": "print",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "print",
+      "printer",
+      "pdf"
+    ]
+  },
+  {
+    "id": 41,
+    "name": "print solid",
+    "classNames": "print-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "print",
+      "printer",
+      "pdf",
+      "solid"
+    ]
+  },
+  {
+    "id": 42,
+    "name": "edit",
+    "classNames": "edit",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "edit",
+      "pencil",
+      "pen",
+      "write"
+    ]
+  },
+  {
+    "id": 43,
+    "name": "edit solid",
+    "classNames": "edit-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "edit",
+      "pencil",
+      "pen",
+      "write",
+      "solid"
+    ]
+  },
+  {
+    "id": 44,
+    "name": "link",
+    "classNames": "link",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "link",
+      "chain",
+      "hyperlink",
+      "connect"
+    ]
+  },
+  {
+    "id": 45,
+    "name": "map",
+    "classNames": "map",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "map",
+      "location",
+      "gps"
+    ]
+  },
+  {
+    "id": 46,
+    "name": "mail",
+    "classNames": "mail",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "mail",
+      "envelope",
+      "email",
+      "inbox"
+    ]
+  },
+  {
+    "id": 47,
+    "name": "mail solid",
+    "classNames": "mail-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "mail",
+      "envelope",
+      "email",
+      "inbox",
+      "solid"
+    ]
+  },
+  {
+    "id": 48,
+    "name": "bookmark",
+    "classNames": "bookmark",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "bookmark",
+      "favorite",
+      "save for later"
+    ]
+  },
+  {
+    "id": 49,
+    "name": "bookmark solid",
+    "classNames": "bookmark-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "bookmark",
+      "favorite",
+      "save for later",
+      "solid"
+    ]
+  },
+  {
+    "id": 50,
+    "name": "camera",
+    "classNames": "camera",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "camera",
+      "photo",
+      "picture"
+    ]
+  },
+  {
+    "id": 51,
+    "name": "camera solid",
+    "classNames": "camera-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "camera",
+      "photo",
+      "picture",
+      "solid"
+    ]
+  },
+  {
+    "id": 52,
+    "name": "focus",
+    "classNames": "focus",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "focus",
+      "frame",
+      "target"
+    ]
+  },
+  {
+    "id": 53,
+    "name": "card",
+    "classNames": "card",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "card",
+      "credit card",
+      "bank"
+    ]
+  },
+  {
+    "id": 54,
+    "name": "card solid",
+    "classNames": "card-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "card",
+      "credit card",
+      "bank",
+      "solid"
+    ]
+  },
+  {
+    "id": 55,
+    "name": "lock",
+    "classNames": "lock",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "lock",
+      "unlock"
+    ]
+  },
+  {
+    "id": 56,
+    "name": "lock solid",
+    "classNames": "lock-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "lock",
+      "unlock",
+      "solid"
+    ]
+  },
+  {
+    "id": 57,
+    "name": "unlock",
+    "classNames": "unlock",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "lock",
+      "unlock"
+    ]
+  },
+  {
+    "id": 58,
+    "name": "unlock solid",
+    "classNames": "unlock-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "lock",
+      "unlock",
+      "solid"
+    ]
+  },
+  {
+    "id": 59,
+    "name": "code",
+    "classNames": "code",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "code",
+      "html",
+      "xml",
+      "angle bracket"
+    ]
+  },
+  {
+    "id": 60,
+    "name": "flag",
+    "classNames": "flag",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "flag",
+      "mark"
+    ]
+  },
+  {
+    "id": 61,
+    "name": "flag solid",
+    "classNames": "flag-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "flag",
+      "mark",
+      "solid"
+    ]
+  },
+  {
+    "id": 62,
+    "name": "tag",
+    "classNames": "tag",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "tag"
+    ]
+  },
+  {
+    "id": 63,
+    "name": "tag solid",
+    "classNames": "tag-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "tag",
+      "solid"
+    ]
+  },
+  {
+    "id": 64,
+    "name": "signal",
+    "classNames": "signal",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "signal",
+      "wifi"
+    ]
+  },
+  {
+    "id": 65,
+    "name": "export",
+    "classNames": "export",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "export"
+    ]
+  },
+  {
+    "id": 66,
+    "name": "upload",
+    "classNames": "upload",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "export"
+    ]
+  },
+  {
+    "id": 67,
+    "name": "import",
+    "classNames": "import",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "download"
+    ]
+  },
+  {
+    "id": 68,
+    "name": "download",
+    "classNames": "download",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "download"
+    ]
+  },
+  {
+    "id": 69,
+    "name": "upload2",
+    "classNames": "upload2",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "upload"
+    ]
+  },
+  {
+    "id": 70,
+    "name": "shutdown",
+    "classNames": "shutdown",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "shutdown",
+      "close"
+    ]
+  },
+  {
+    "id": 71,
+    "name": "paperclip",
+    "classNames": "paperclip",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "paperclip",
+      "clip"
+    ]
+  },
+  {
+    "id": 72,
+    "name": "retweet",
+    "classNames": "retweet",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "retweet",
+      "refresh"
+    ]
+  },
+  {
+    "id": 73,
+    "name": "key",
+    "classNames": "key",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "key",
+      "password"
+    ]
+  },
+  {
+    "id": 74,
+    "name": "key",
+    "classNames": "key-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "key",
+      "password",
+      "solid"
+    ]
+  },
+  {
+    "id": 75,
+    "name": "key2",
+    "classNames": "key2",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "key",
+      "password"
+    ]
+  },
+  {
+    "id": 76,
+    "name": "key2 solid",
+    "classNames": "key2-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "key",
+      "password",
+      "solid"
+    ]
+  },
+  {
+    "id": 77,
+    "name": "refresh",
+    "classNames": "refresh",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "refresh",
+      "rotate"
+    ]
+  },
+  {
+    "id": 78,
+    "name": "pilcrow",
+    "classNames": "pilcrow",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "pilcrow",
+      "paragraph"
+    ]
+  },
+  {
+    "id": 79,
+    "name": "pilcrow solid",
+    "classNames": "pilcrow-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "pilcrow",
+      "paragraph",
+      "solid"
+    ]
+  },
+  {
+    "id": 80,
+    "name": "justified",
+    "classNames": "justified",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "justified",
+      "justify",
+      "paragraph"
+    ]
+  },
+  {
+    "id": 81,
+    "name": "paragraph direction",
+    "classNames": "paragraph-direction",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "paragraph direction",
+      "direction",
+      "paragraph"
+    ]
+  },
+  {
+    "id": 82,
+    "name": "left align",
+    "classNames": "left-align",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "left align",
+      "align",
+      "left",
+      "paragraph"
+    ]
+  },
+  {
+    "id": 83,
+    "name": "center align",
+    "classNames": "center-align",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "center align",
+      "align",
+      "center",
+      "paragraph"
+    ]
+  },
+  {
+    "id": 84,
+    "name": "right align",
+    "classNames": "right-align",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "right align",
+      "align",
+      "right",
+      "paragraph"
+    ]
+  },
+  {
+    "id": 85,
+    "name": "indent",
+    "classNames": "indent",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "indent",
+      "paragraph"
+    ]
+  },
+  {
+    "id": 86,
+    "name": "outdent",
+    "classNames": "outdent",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "outdent",
+      "paragraph"
+    ]
+  },
+  {
+    "id": 87,
+    "name": "mouse",
+    "classNames": "mouse",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "mouse",
+      "pointer"
+    ]
+  },
+  {
+    "id": 88,
+    "name": "mouse solid",
+    "classNames": "mouse-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "mouse",
+      "pointer",
+      "solid"
+    ]
+  },
+  {
+    "id": 89,
+    "name": "keyboard",
+    "classNames": "keyboard",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "keyboard",
+      "typing"
+    ]
+  },
+  {
+    "id": 90,
+    "name": "keyboard solid",
+    "classNames": "keyboard-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "keyboard",
+      "typing",
+      "solid"
+    ]
+  },
+  {
+    "id": 91,
+    "name": "left double quote",
+    "classNames": "left-double-quote",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "left",
+      "doubel quote",
+      "quote",
+      "punctuation"
+    ]
+  },
+  {
+    "id": 92,
+    "name": "left double quote solid",
+    "classNames": "left-double-quote-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "left",
+      "doubel quote",
+      "quote",
+      "punctuation",
+      "solid"
+    ]
+  },
+  {
+    "id": 93,
+    "name": "right double quote",
+    "classNames": "right-double-quote",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "right",
+      "doubel quote",
+      "quote",
+      "punctuation"
+    ]
+  },
+  {
+    "id": 94,
+    "name": "right double quote solid",
+    "classNames": "right-double-quote-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "right",
+      "doubel quote",
+      "quote",
+      "punctuation",
+      "solid"
+    ]
+  },
+  {
+    "id": 95,
+    "name": "left single quote",
+    "classNames": "left-single-quote",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "left",
+      "single quote",
+      "quote",
+      "punctuation"
+    ]
+  },
+  {
+    "id": 96,
+    "name": "left single quote solid",
+    "classNames": "left-single-quote-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "left",
+      "single quote",
+      "quote",
+      "punctuation",
+      "solid"
+    ]
+  },
+  {
+    "id": 97,
+    "name": "right single quote",
+    "classNames": "right-single-quote",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "right",
+      "single quote",
+      "quote",
+      "punctuation"
+    ]
+  },
+  {
+    "id": 98,
+    "name": "right single quote solid",
+    "classNames": "right-single-quote-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "right",
+      "single quote",
+      "quote",
+      "punctuation",
+      "solid"
+    ]
+  },
+  {
+    "id": 99,
+    "name": "mustache solid",
+    "classNames": "mustache-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": [
+      "beard",
+      "mustache",
+      "handlebar",
+      "hipster",
+      "solid"
+    ]
+  },
+  {
+    "id": 100,
+    "name": "mustache",
+    "classNames": "mustache",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": [
+      "beard",
+      "mustache",
+      "handlebar",
+      "hipster"
+    ]
+  },
+  {
+    "id": 101,
+    "name": "eye",
+    "classNames": "eye",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 102,
+    "name": "eye",
+    "classNames": "eye-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 103,
+    "name": "eye",
+    "classNames": "eye-solid2",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 104,
+    "name": "eye",
+    "classNames": "eye-solid3",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 105,
+    "name": "battery",
+    "classNames": "battery-0",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 106,
+    "name": "battery",
+    "classNames": "battery-1",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 107,
+    "name": "battery",
+    "classNames": "battery",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 108,
+    "name": "battery",
+    "classNames": "battery-3",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 109,
+    "name": "battery solid",
+    "classNames": "battery-solid-0",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 110,
+    "name": "battery solid",
+    "classNames": "battery-solid-1",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 111,
+    "name": "battery solid",
+    "classNames": "battery-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 112,
+    "name": "battery solid charged",
+    "classNames": "battery-solid-3",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 113,
+    "name": "suitcase",
+    "classNames": "suitcase",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 114,
+    "name": "suitcase",
+    "classNames": "suitcase-1",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 115,
+    "name": "suitcase",
+    "classNames": "suitcase-2",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 116,
+    "name": "suitcase",
+    "classNames": "suitcase-3",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 117,
+    "name": "browser",
+    "classNames": "browser",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 118,
+    "name": "browser solid",
+    "classNames": "browser-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 119,
+    "name": "tv",
+    "classNames": "tv",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 120,
+    "name": "tv solid",
+    "classNames": "tv-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 121,
+    "name": "laptop",
+    "classNames": "laptop",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 122,
+    "name": "laptop solid",
+    "classNames": "laptop-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 123,
+    "name": "mobile",
+    "classNames": "mobile",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 124,
+    "name": "mobile solid",
+    "classNames": "mobile-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 125,
+    "name": "tablet",
+    "classNames": "tablet",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 126,
+    "name": "tablet solid",
+    "classNames": "tablet-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 127,
+    "name": "picture",
+    "classNames": "picture",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 127,
+    "name": "picture solid",
+    "classNames": "picture-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 129,
+    "name": "watch",
+    "classNames": "watch",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 130,
+    "name": "watch solid",
+    "classNames": "watch-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 131,
+    "name": "target",
+    "classNames": "target",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 132,
+    "name": "target solid",
+    "classNames": "target-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 133,
+    "name": "navigate",
+    "classNames": "navigate",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 134,
+    "name": "navigate solid",
+    "classNames": "navigate-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 135,
+    "name": "float",
+    "classNames": "float",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 136,
+    "name": "float solid",
+    "classNames": "float-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 137,
+    "name": "more",
+    "classNames": "more",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 138,
+    "name": "more solid",
+    "classNames": "more-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 139,
+    "name": "more vertical",
+    "classNames": "more-vertical",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 140,
+    "name": "more vertical solid",
+    "classNames": "more-vertical-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 141,
+    "name": "smile",
+    "classNames": "smile",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 142,
+    "name": "smile solid",
+    "classNames": "smile-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 143,
+    "name": "wink",
+    "classNames": "wink",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 144,
+    "name": "wink tougue",
+    "classNames": "wink-tougue",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 145,
+    "name": "tougue",
+    "classNames": "tougue",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 146,
+    "name": "tougue solid",
+    "classNames": "tougue-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 147,
+    "name": "relieved",
+    "classNames": "relieved",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 148,
+    "name": "relieved solid",
+    "classNames": "relieved-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 149,
+    "name": "laugh",
+    "classNames": "laugh",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 150,
+    "name": "laugh solid",
+    "classNames": "laugh-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 151,
+    "name": "wink laugh",
+    "classNames": "wink-laugh",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 152,
+    "name": "grin",
+    "classNames": "grin",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 153,
+    "name": "grin solid",
+    "classNames": "grin-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 154,
+    "name": "grin wink",
+    "classNames": "grin-wink",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 155,
+    "name": "smiley",
+    "classNames": "smiley",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 156,
+    "name": "smiley solid",
+    "classNames": "smiley-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 157,
+    "name": "smiley wink",
+    "classNames": "wink-smiley",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 158,
+    "name": "relieved-smiley",
+    "classNames": "relieved-smiley",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 159,
+    "name": "relieved smiley solid",
+    "classNames": "relieved-smiley-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 160,
+    "name": "sad",
+    "classNames": "sad",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 161,
+    "name": "sad solid",
+    "classNames": "sad-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 162,
+    "name": "pensive",
+    "classNames": "pensive",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 163,
+    "name": "pensive solid",
+    "classNames": "pensive-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 164,
+    "name": "unamused",
+    "classNames": "unamused",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 165,
+    "name": "unamused solid",
+    "classNames": "unamused-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 166,
+    "name": "cloud",
+    "classNames": "cloud",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 167,
+    "name": "cloud solid",
+    "classNames": "cloud-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 168,
+    "name": "snow",
+    "classNames": "snow",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 169,
+    "name": "rain",
+    "classNames": "rain",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 170,
+    "name": "cloud raindrop",
+    "classNames": "cloud-raindrop",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 171,
+    "name": "cloud lightning",
+    "classNames": "cloud-lightning",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 172,
+    "name": "cloud download",
+    "classNames": "cloud-download",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 173,
+    "name": "cloud download solid",
+    "classNames": "cloud-download-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 174,
+    "name": "cloud upload",
+    "classNames": "cloud-upload",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 175,
+    "name": "cloud upload solid",
+    "classNames": "cloud-upload-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 176,
+    "name": "moon",
+    "classNames": "moon",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 177,
+    "name": "moon solid",
+    "classNames": "moon-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 178,
+    "name": "sun",
+    "classNames": "sun",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 179,
+    "name": "sun solid",
+    "classNames": "sun-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 180,
+    "name": "sun brightness",
+    "classNames": "sun-brightness",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 181,
+    "name": "sun raindrop",
+    "classNames": "sun-raindrop",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 182,
+    "name": "sun raindrop solid",
+    "classNames": "sun-raindrop-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 183,
+    "name": "sun horizon",
+    "classNames": "sun-horizon",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 184,
+    "name": "sun horizon solid",
+    "classNames": "sun-horizon-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 185,
+    "name": "sunrise",
+    "classNames": "sunrise",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 186,
+    "name": "sunrise solid",
+    "classNames": "sunrise-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 187,
+    "name": "sunset",
+    "classNames": "sunset",
+    "style": "line",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 188,
+    "name": "sunset solid",
+    "classNames": "sunset-solid",
+    "style": "solid",
+    "htmlChildMarkup": true,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 189,
+    "name": "raindrop",
+    "classNames": "raindrop",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 190,
+    "name": "raindrop solid",
+    "classNames": "raindrop-solid",
+    "style": "solid",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  },
+  {
+    "id": 191,
+    "name": "no raindrop",
+    "classNames": "no-raindrop",
+    "style": "line",
+    "htmlChildMarkup": false,
+    "cssHidden": "",
+    "tag": []
+  }
+]

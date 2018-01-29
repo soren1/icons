@@ -1,0 +1,11 @@
+@import '../../mixin';
+.unlock.icon {
+  &:after {
+    @include pseudo();
+    left: 3px;
+    top: -4px;
+    width: 1px;
+    height: 3px;
+    background-color: currentColor;
+  }
+}

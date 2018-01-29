@@ -1,0 +1,718 @@
+//layout.scss
+$borderRadius: 0;
+$borderColor: #ccc;
+$highlightColor: #3CD5FF;
+$animateHighlightColor: #ff50a6;
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+button {
+  outline: none;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  .viewer {
+    display: none;
+  }
+  &.viewerOpen {
+    .icons {
+      width: 63.25757576%;
+      .iconWrapper.selected {
+        border-color: $highlightColor;
+        .icon {
+          color: $highlightColor;
+        }
+      }
+      .icon.selected {
+        color: $highlightColor;
+      }
+    }
+    .viewer {
+      display: block;
+    }
+
+    &.letterIconViewerOpen .viewerWrapper {
+      .iconViewer .icon {
+        margin: 0 auto;
+        position: relative;
+      }
+      .iconWrapper {
+        border: none;
+        padding: 0;
+        margin-top: 9px;
+        width: auto;
+        height: auto;
+      }
+      .iconWrapperBig {
+        height: 90px;
+        width: auto;
+        text-align: center;
+        .scale {
+          transform: scale(3);
+          transform-origin: center top;
+        }
+      }
+    }
+  }
+}
+.containerHome {
+  .animateLogo {
+    cursor: pointer;
+  }
+  .animateLogo .icon {
+    color: $borderColor !important;
+  }
+  .animateLogo:hover .icon {
+    color: $animateHighlightColor !important;
+  }
+}
+.containerAnimate {
+  .animateLogo .icon {
+    color: $animateHighlightColor !important;
+  }
+  .logo {
+    cursor: pointer;
+  }
+  .logo > .icon {
+    color: $borderColor !important;
+  }
+  .logo:hover > .icon {
+    color: $highlightColor !important;
+  }
+}
+.containerHome .icons .iconWrapper:hover {
+  border-color: $highlightColor;
+}
+.containerAnimate .icons .iconWrapper:hover {
+  border-color: #ffa3d0;
+}
+.iconsAnimateIconToAssignA.icons .iconWrapper:hover,
+.iconsAnimateIconToAssignB.icons .iconWrapper:hover {
+  &:before{
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: 6px;
+    width: 3px;
+    height: 12px;
+    background-color: white;
+  }
+  .iconMarker {
+    color: #ffa3d0;
+  }
+}
+.iconsAnimateIconToAssignA.icons .iconWrapper:hover {
+  .A.iconMarker {
+    display: block;
+  }
+} 
+.iconsAnimateIconToAssignB.icons .iconWrapper:hover {
+  .B.iconMarker {
+    display: block;
+  }
+} 
+
+.icons {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 20px 15px 20px 20px;
+  text-align: justify;
+  box-sizing: border-box;
+  font-size: 0;
+  position: relative;
+  .iconWrapper {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    padding: 26px;
+    box-sizing: border-box;
+    border: solid 1px $borderColor;
+    border-radius: $borderRadius;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.4s ease-out;
+    &:hover {
+      transition: none;
+    }
+    &.iconWrapperHidden {
+      visibility: hidden;
+      height: 0px;
+      border: none;
+      padding: 0;
+    }
+    .iconMarker {
+      display: none;
+    }
+  }
+  .info {
+    max-width: 600px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 40px auto 0 auto;
+    a {
+      color: #000;
+      text-decoration: underline;
+    }
+  }
+  .about {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    a {
+      font-size: 16px;
+      font-weight: 700;
+      color: #000;
+      line-height: 16px;
+      display: block;
+      float: left;
+      width: 20%;
+      text-decoration: none;
+      text-align: center;
+      i {
+        display: block;
+        height: 25px;
+        margin-bottom: 8px;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .youtube {
+      i {
+        background: url(../images/youtube.svg) no-repeat center bottom;
+      }
+    }
+    .me {
+      i {
+        background: url(../images/w.svg) no-repeat center bottom;
+      }
+    }
+    .github {
+      i {
+        background: url(../images/github.svg) no-repeat center bottom;
+      }
+    }
+    .facebook {
+      i {
+        background: url(../images/facebook.svg) no-repeat center bottom;
+      }
+    }
+    .twitter {
+      i {
+        background: url(../images/twitter.svg) no-repeat center bottom;
+      }
+
+    }
+  }
+}
+.viewer {
+  width: 36.74242424%;
+  height: 100%;
+  float: right;
+  box-sizing: border-box;
+  position: relative;
+  .buttonClose {
+    position: absolute;
+    right: 10px;
+    top: 41px;
+    width: 21px;
+    height: 21px;
+    background-color: white;
+    z-index: 9;
+    cursor: pointer;
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 29px;
+      height: 1px;
+      left: -4px;
+      top: 10px;
+      background-color: #000;
+      transform-origin: 50% 50%;
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
+  }
+  .viewerWrapper {
+    box-sizing: border-box;
+    border: solid 1px $borderColor;
+    border-radius: $borderRadius;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 0;
+    right: 20px;
+    margin: 0;
+    padding: 20px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    .iconWrapper {
+      position: absolute;
+      width: 21px;
+      height: 21px;
+      padding: 8px;
+      border: solid 1px $borderColor;
+    }
+    .iconWrapperBig {
+      width: 84px;
+      height: 84px;
+      padding: 20px;
+      margin: 40px auto 0 auto;
+      .scale {
+        transform: scale(4);
+        transform-origin: left top;
+        display: inline-block;
+      }
+    }
+    .iconLabel {
+      margin-bottom: 30px;
+    }
+    .buttonCodepen {
+      display: block;
+      border: solid 1px #000;
+      border-radius: $borderRadius;
+      margin-bottom: 30px;
+      cursor: pointer;
+      padding: 0;
+      background-color: transparent;
+      width: 100%;
+      letter-spacing: 0.03em;
+      svg {
+        margin-left: 3px;
+        position: relative;
+        top: 6px;
+      }
+      &:hover {
+        background-color: #000;
+        color: white;
+        svg path{
+          fill: white;
+        }
+      }
+    }
+    h4 .buttonCopy {
+      float: right;
+      cursor: pointer;
+      min-width: 56px;
+      height: 22px;
+      position: relative;
+      .copy.icon {
+        position: absolute;
+        top: 6px;
+        right: 0;
+      }
+      &.copied::after {
+        content: "copied";
+      }
+      &::after {
+        content: "copy";
+        font-weight: 400;
+        margin-right: 20px;
+        display: none;
+      }
+      &:hover::after {
+        display: block;
+      }
+    }
+
+    .animateControl {
+      margin-bottom: 30px;
+      .iconLabel {
+        margin-bottom: 0;
+        .iconALabel {
+          width: 50%;
+          float: left;
+          text-align: left;
+        }
+        .iconBLabel {
+          width: 50%;
+          float: right;
+          text-align: right;
+        }
+      }
+      .iconWrappers {
+        .iconWrapper {
+          position: relative;
+          padding: 26px;
+          border-color: #000;
+          &:before {
+            content: "";
+            position: absolute;
+            right: -2px;
+            top: 6px;
+            width: 3px;
+            height: 12px;
+            background-color: white;
+          }
+          .buttonLock {
+            cursor: pointer;
+            position: absolute;
+            left: -8px;
+            bottom: 5px;
+            width: 15px;
+            height: 15px;
+            background-color: #fff;
+          }
+          .buttonLock:hover i {
+            color: $animateHighlightColor;
+          }
+          &.locked {
+            border-color: $borderColor;
+            .iconMarker {
+              color: $borderColor;
+            }
+          }
+        }
+        .iconAWrapper {
+          float: left;
+        }
+        .iconBWrapper {
+          float: right;
+        }
+        .animateDirection {
+          text-align: center;
+          top: 17px;
+          margin-left: 75px;
+          margin-right: 75px;
+          position: relative;
+          &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 20px;
+            width: 100%;
+            height: 1px;
+            background-color: #000;
+          }
+          &.AtoB:after {
+            content: "";
+            position: absolute;
+            right: 2px;
+            top: 15px;
+            width: 9px;
+            height: 9px;
+            border-left: solid 1px transparent;
+            border-top: solid 1px transparent;
+            border-right: solid 1px #000;
+            border-bottom: solid 1px #000;
+            transform: rotate(-45deg);
+            transform-origin: center center;
+          }
+          &.BtoA:after {
+            content: "";
+            position: absolute;
+            left: 2px;
+            top: 15px;
+            width: 9px;
+            height: 9px;
+            border-left: solid 1px #000;
+            border-top: solid 1px #000;
+            border-right: solid 1px transparent;
+            border-bottom: solid 1px transparent;
+            transform: rotate(-45deg);
+            transform-origin: center center;
+          }
+          .buttonPlay {
+            cursor: pointer;
+            width: 39px;
+            height: 39px;
+            background-color: #fff;
+            border: solid 1px #000;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            &:hover {
+              background-color: #000;
+              i {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.iconWrapper {
+  position: relative;
+  .A.iconMarker {
+    right: -3px;
+    top: 13px;
+  }
+  .B.iconMarker {
+    right: 2px;
+    top: 6px;
+  }
+}
+.icons .iconWrapper {
+  &.selectedAnimateIconA,
+  &.selectedAnimateIconB {
+    border-color: $animateHighlightColor;
+    &:hover {
+      border-color: $animateHighlightColor;
+      .iconMarker {
+        color: $animateHighlightColor;
+      }
+    }
+    &:before{
+      content: "";
+      position: absolute;
+      right: -2px;
+      top: 6px;
+      width: 3px;
+      height: 12px;
+      background-color: white;
+    }
+    .icon {
+      color: $animateHighlightColor;
+    }
+    .iconMarker {
+      color: $animateHighlightColor;
+    }
+  }
+  &.selectedAnimateIconA {
+    .A.iconMarker {
+      display: block;
+    }
+    .B.iconMarker {
+      display: none;
+    }
+    &:hover {
+      .B.iconMarker {
+        display: none;
+      }
+    }
+  }
+  &.selectedAnimateIconB {
+    .A.iconMarker {
+      display: none;
+    }
+    .B.iconMarker {
+      display: block;
+    }
+    &:hover {
+      .A.iconMarker {
+        display: none;
+      }
+    }
+  }
+}
+.logo {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 30px 0 50px 0;
+  font-size: 20px;
+  .icon {
+    cursor: pointer;
+    display: inline-block;
+    &.C {
+      position: relative;
+      margin-right: -5px;
+    }
+    &.S {
+      position: relative;
+    }
+    &.I {
+      position: relative;
+      margin-left: 18px;
+    }
+    &.O {
+      position: relative;
+    }
+    &.N {
+      position: relative;
+    }
+    
+  }
+}
+.containerHome .logo .icon:hover {
+  color: $highlightColor;
+}
+
+.animateLogo {
+  display: inline-block;
+  margin-left: 18px;
+  position: relative;
+  bottom: 0;
+  width: 119px;
+  height: 21px;
+  font-size: 16px;
+  .m-s.icon {
+    margin-right: -1px;
+  }
+  .t-s.icon {
+    margin-left: -1px;
+  }
+  .e-s.icon {
+    margin-left: -2px;
+  }
+  .icon {
+    position: relative;
+    display: inline-block;
+  }
+}
+
+.searchWrapper {
+  width: 250px;
+  position: absolute;
+  right: 20px;
+  top: 39px;
+  box-sizing: border-box;
+  input.search {
+    background: transparent;
+    border: 0;
+    width: 100%;
+    border-bottom: solid 1px #000;
+    padding: 9px 0 7px 0;
+    outline: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }   
+  ::-webkit-input-placeholder {
+     color: #000;
+  }
+  :-moz-placeholder {
+     color: #000;  
+  }
+  ::-moz-placeholder {
+     color: #000;  
+  }
+  :-ms-input-placeholder {  
+     color: #000;  
+  }
+  .search.icon {
+    display: none;
+    position: absolute;
+    top: 11px;
+    right: 4px;
+  }
+  button.close.icon {
+    display: none;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 0;
+  }
+  input.search:not(:valid) ~ .close.icon {
+    display: none;
+  }
+  input.search:not(:valid) ~ .search.icon {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 900px) {
+  .container.viewerOpen {
+    .logo {
+      margin-bottom: 20px;
+    }    
+    .searchWrapper {
+      width: auto;
+      position: relative;
+      right: inherit;
+      top: inherit;
+      margin-right: 5px;
+      margin-bottom: 40px;
+    }
+    .icons .about {
+      margin-top: 30px;
+      a {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+  .container {
+    &.viewerOpen {
+      .icons {
+        width: calc( 100% - 365px);
+      }
+      .viewer {
+        width: 365px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  .icons {
+    width: 100%;
+  }
+  .icons .about {
+    margin-top: 30px;
+    a {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  .viewer {
+    // display: none;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    .buttonClose {
+      right: 5px;
+      top: 40px;
+      width: 31px;
+      height: 31px;
+      &:before, &:after {
+        width: 41px;
+        left: -5px;
+        top: 15px;
+      }
+    }
+    .viewerWrapper {
+      left: 20px;
+    }
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .searchWrapper {
+    width: auto;
+    position: relative;
+    right: inherit;
+    top: inherit;
+    margin-right: 5px;
+    margin-bottom: 40px;
+  }
+}

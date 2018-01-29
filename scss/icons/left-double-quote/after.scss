@@ -1,0 +1,12 @@
+@import '../../mixin';
+.left-double-quote.icon {
+  &:after {
+    @include pseudo();
+    top: 3px;
+    left: 9px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: solid 1px currentColor;
+  }
+}
